@@ -1,0 +1,65 @@
+{
+ "intro": "Google Business Profile wo free listing hai jo aapki dukaan ko Google Maps aur Google search me dikhati hai — jab koi aapke sheher me '[aapka kaam]' search kare, to aapki dukaan samne aayegi. Ye profile banana bilkul muft hai aur sirf 15-20 minute lagte hain. Neeche har step me wahi taps diye gaye hain jo aapko apne Android phone par karne hain.",
+ "steps": [
+  {
+   "detail": "Apne phone par Google Maps app kholo (wo neela nishan wala app jis me sadken banti hain). Upar dayein taraf apni chhoti si photo ya pehle harf par tap karo — menu khulega. Neeche scroll karke 'Add your business' ya 'Apna business add karein' par tap karo. Agar option na dikhe to Maps update karke dobara try karo.",
+   "n": 1,
+   "title": "Maps app me business add karna"
+  },
+  {
+   "detail": "Ab aap se business ka naam poocha jayega. Apni dukaan ka PURA aur SAHI naam likho — wahi naam jo dukaan ke board par laga hai, misal '[DUKAAN KA NAAM]'. Phir 'business category' choose karo: search box me apna kaam likho, misal 'kapray ki dukaan', 'salon' ya 'restaurant', aur list me se jo sab se qareeb ho us par tap karo. Ghalat category na chuno — yehi faisla karegi ke kaun se customer aapko dhunden ge.",
+   "n": 2,
+   "title": "Naam aur category choose karna"
+  },
+  {
+   "detail": "Ab location poochi jayegi: 'Add location' par tap karke apni dukaan ka pura pata likho (gali, mohalla, sheher). Jo customers dukaan par aate hain, unhe address zaroor dena chahiye. Phir apna mobile number likho — wahi number jo aap khud uthate hain, kyunke Google kabhi kabhi isi par verification code bhejta hai. Number bilkul sahi likho, ek hindsa bhi ghalat na ho.",
+   "n": 3,
+   "title": "Address aur phone number dena"
+  },
+  {
+   "detail": "Ab 'Business hours' ya 'Timing' ka option aayega. Har din par tap karke wo time set karo jab dukaan khulti aur band hoti hai, misal Somvaar: Subah 10:00 — Raat 9:00. Jis din chhutti hoti hai, us din 'Closed' select karo. Ye timing bilkul sahi rakho — Google Maps par log isi ko dekh kar aate hain, aur ghalat timing se customer naraaz hote hain.",
+   "n": 4,
+   "title": "Dukaan ki timing set karna"
+  },
+  {
+   "detail": "Is step me Google aap se website ya Facebook page ka link maang sakta hai — ye LAZMI nahi hai. Agar aapka Facebook page hai to uska link paste kar do, nahi hai to 'Skip' par tap karke aage barh jao. Baad me jab chaaho, profile me ye link add kar sakte ho. Is step ko chhorne se profile adhoori nahi hoti.",
+   "n": 5,
+   "title": "Website ya Facebook link (optional)"
+  },
+  {
+   "detail": "Ab 'Business description' likhne ka box aayega. Yahan 2-3 jumlon me batao ke aap kya bechte hain aur khaas kya hai, misal: '[DUKAAN KA NAAM] [SHEHER] me [PRODUCTS] ki mashhoor dukaan hai. Munasib qeemat, asli cheez aur khush ikhlaq service hamari pehchaan hai.' Description me apna sheher ka naam zaroor likho taake log search karke aapko dhoond saken.",
+   "n": 6,
+   "title": "Dukaan ki description likhna"
+  },
+  {
+   "detail": "Ab photos add karne ka waqt hai — ye sab se zaroori step hai! Profile me 'Add photos' par tap karke ye 5 photos zaroor lagao: (1) dukaan ki BAHAR se photo jisme board saaf dikhe, (2) dukaan ki ANDAR se photo, (3) apne products ya kaam ki 2-3 photos, (4) apni (owner ki) ek achi photo, (5) dukaan ka logo agar hai. Photos saaf roshni me lo — andheri ya dhundli photos na lagao.",
+   "n": 7,
+   "title": "5 zaroori photos lagana"
+  },
+  {
+   "detail": "Profile ko live karne ke liye Google tasdeeq (verification) maangta hai. 'Verify' par tap karo — Google aapko do options dega: (1) VIDEO verification: 1-2 minute ki video banao jisme dukaan ka board, andar ka samaan aur aapka chehra dikhe, phir upload kar do; (2) POSTCARD: Google 7-14 din me aapke pate par ek khat bhejega jisme code hoga, wo code profile me daal do. Video wala tareeqa tez hai — wahi try karo.",
+   "n": 8,
+   "title": "Verification karwana (video ya postcard)"
+  },
+  {
+   "detail": "Profile live hote hi pehla post zaroor karo! Profile kholo, neeche 'Add update' ya 'Post' ka button dabaao. Ek khubsurat photo chuno (naya stock ya dukaan ki photo), 1-2 jumlay likho misal 'Naya stock aa gaya hai! Aaj hi [DUKAAN KA NAAM] tashreef laiye.' aur 'Publish' par tap karo. Pehla post profile ko zinda dikhata hai aur customers ko bharosa deta hai.",
+   "n": 9,
+   "title": "Pehla post lagana"
+  },
+  {
+   "detail": "Jab koi customer Google par review de, to 'Reviews' section kholo aur har review ka jawab do. Ache review par likho: 'Bohat shukriya! Aapki khushi hamari kamyabi hai. Phir zaroor tashreef laiye.' Agar koi bura review de to gussa na karo — narmi se likho: 'Maazrat, aapka tajurba acha nahi raha. Hum isay behtar karenge — agli baar zaroor khush karenge.' Jawab dene se naye customers ko bharosa milta hai.",
+   "n": 10,
+   "title": "Review ka jawab dena"
+  },
+  {
+   "detail": "Profile me 'Questions & Answers' (Sawal-Jawab) ka section hota hai jahan log sawal pooch sakte hain, misal 'Timing kya hai?' ya 'Parking hai?'. Hafte me ek baar is section ko check karo. Khud bhi 2-3 aam sawal khud pooch kar unke jawab de do — misal sawal: 'Kya home delivery hai?' jawab: 'Ji haan, [SHEHER] me delivery available hai.' Is se customers ko pehle se hi jawab mil jate hain.",
+   "n": 11,
+   "title": "Q&A section sambhalna"
+  },
+  {
+   "detail": "Har hafte 10 minute nikaal kar ye 4 kaam karo: (1) koi naya review aaya hai to uska jawab do, (2) ek nayi photo ya chhota post lagao, (3) timing ya phone number badla hai to update karo, (4) Q&A me koi naya sawal hai to jawab do. Jo dukaan har hafte apni profile taza rakhti hai, Google use search me upar dikhata hai. Ye aadat bana lo — ye aapki muft ki advertising hai. Apna review link nikalne ke liye: Google Business Profile app kholo → neeche 'Reviews' par tap karo → 'Share review form' ya 'Get more reviews' dabao → link copy ho jayega. Isi link ko [GOOGLE REVIEW LINK] ki jagah templates me lagao.",
+   "n": 12,
+   "title": "Hafte-waar check ki aadat"
+  }
+ ]
+}
