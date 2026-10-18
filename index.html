@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Members Area — 30-Din Business Launch Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="js/gate.js"></script>
+</head>
+<body>
+
+<header class="mem-top">
+  <div class="wrap">
+    <p style="letter-spacing:.12em;font-size:11px;font-weight:700">WAHAB CODES · MEMBERS AREA</p>
+    <h1>Assalam-o-Alaikum! 👋</h1>
+    <p>Aapka 30-din ka safar yahan se shuru hota hai. Neeche se Day 1 kholo.</p>
+  </div>
+</header>
+
+<section style="padding-top:26px">
+  <div class="wrap">
+    <a class="mem-card" href="roadmap.html">
+      <span class="tag">Day 1 – 30</span>
+      <h3>🗓️ 30-Din Launch Roadmap</h3>
+      <p>Roz ek task: kya karna hai, kyun, aur phone par kaise. Day 1 se shuru karein.</p>
+    </a>
+    <a class="mem-card" href="templates.html">
+      <span class="tag">22+ Ready Messages</span>
+      <h3>💬 WhatsApp Templates Vault</h3>
+      <p>Qeemat, order, review, offer — har mauqe ka tayyar jawab. Copy karein, bhej dein.</p>
+    </a>
+    <a class="mem-card" href="gbp-guide.html">
+      <span class="tag">Step by Step</span>
+      <h3>📍 Google Business Profile Guide</h3>
+      <p>Google par apni dukaan kaise lao — phone par kya tap karna hai, sab kuch.</p>
+    </a>
+    <a class="mem-card" href="generator.html">
+      <span class="tag">AI Tool</span>
+      <h3>✨ Copy Generator</h3>
+      <p>Apne business ki khubsurat description aur offer text banayo — Urdu aur English me.</p>
+    </a>
+    <div style="text-align:center">
+      <button class="logout" id="logoutBtn" type="button">Logout</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap"><b>30-Din Business Launch Kit</b> · by Wahab Codes</div>
+</footer>
+
+<script>
+document.getElementById('logoutBtn').addEventListener('click', function(){
+  try{ sessionStorage.removeItem('ldk_access'); }catch(e){}
+  window.location.href = '../buy.html';
+});
+</script>
+</body>
+</html>
