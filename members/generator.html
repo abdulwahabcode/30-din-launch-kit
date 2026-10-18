@@ -14,7 +14,7 @@
 
 <header class="topbar">
   <div class="wrap">
-    <div class="brand">✨ Copy Generator</div>
+    <div class="brand"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3Z"/></svg> Copy Generator</div>
     <a class="cta-mini" href="index.html">Menu</a>
   </div>
 </header>
@@ -46,35 +46,35 @@
       <input id="gOffer" type="text" placeholder="masalan: deg ki biryani, munasib qeemat">
       <label>Lehja (tone)</label>
       <div class="tone-row" id="toneRow">
-        <button type="button" data-t="dostana" class="on">😊 Dostana</button>
-        <button type="button" data-t="professional">🤝 Professional</button>
-        <button type="button" data-t="dhamakedaar">🔥 Dhamakedaar</button>
+        <button type="button" data-t="dostana" class="on"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" x2="9.01" y1="9" y2="9"/><line x1="15" x2="15.01" y1="9" y2="9"/></svg> Dostana</button>
+        <button type="button" data-t="professional"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg> Professional</button>
+        <button type="button" data-t="dhamakedaar"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg> Dhamakedaar</button>
       </div>
-      <button class="btn" id="genBtn" type="button" style="margin-top:18px">✨ Copy Banayo</button>
+      <button class="btn" id="genBtn" type="button" style="margin-top:18px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3L12 3Z"/></svg> Copy Banayo</button>
     </div>
 
     <div class="gen-out" id="genOut" style="display:none">
       <div class="gen-block">
         <div class="lbl">Chhoti Description (Urdu)</div>
         <div class="body" id="outShort"></div>
-        <button class="copybtn" data-for="outShort" type="button" style="margin-top:10px">📋 Copy</button>
+        <button class="copybtn" data-for="outShort" type="button" style="margin-top:10px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg> Copy</button>
       </div>
       <div class="gen-block">
         <div class="lbl">Tafseeli Description (Urdu)</div>
         <div class="body" id="outLong"></div>
-        <button class="copybtn" data-for="outLong" type="button" style="margin-top:10px">📋 Copy</button>
+        <button class="copybtn" data-for="outLong" type="button" style="margin-top:10px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg> Copy</button>
       </div>
       <div class="gen-block">
         <div class="lbl">Description (English)</div>
         <div class="body" id="outEn"></div>
-        <button class="copybtn" data-for="outEn" type="button" style="margin-top:10px">📋 Copy</button>
+        <button class="copybtn" data-for="outEn" type="button" style="margin-top:10px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg> Copy</button>
       </div>
       <div class="gen-block">
         <div class="lbl">WhatsApp Status Offer</div>
         <div class="body" id="outPromo"></div>
-        <button class="copybtn" data-for="outPromo" type="button" style="margin-top:10px">📋 Copy</button>
+        <button class="copybtn" data-for="outPromo" type="button" style="margin-top:10px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg> Copy</button>
       </div>
-      <button class="btn btn-ghost" id="regenBtn" type="button" style="margin-top:14px">🔄 Dobara Banayo (Naya Andaaz)</button>
+      <button class="btn btn-ghost" id="regenBtn" type="button" style="margin-top:14px"><svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg> Dobara Banayo (Naya Andaaz)</button>
     </div>
   </div>
 </section>
