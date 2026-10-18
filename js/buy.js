@@ -2,7 +2,7 @@
 (function(){
   "use strict";
   // >>> OWNER: apna WhatsApp number yahan likhein (country code ke saath, bina + ke), masalan "923001234567"
-  var WHATSAPP_NUMBER = "WHATSAPP_NUMBER_TO_FILL";
+  var WHATSAPP_NUMBER = "923101021797";
 
   var waBtn = document.getElementById('waOrder');
   var msg = "Assalam-o-Alaikum! Mujhe 30-Din Business Launch Kit khareedna hai (Rs 4,997). Mera naam: ";
