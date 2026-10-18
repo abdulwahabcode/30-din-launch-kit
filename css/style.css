@@ -300,3 +300,8 @@ footer b{color:var(--cream-text)}
   .sticky-cta{display:none}
   body.has-sticky{padding-bottom:0}
 }
+
+/* inline SVG icons (replaced emojis) */
+.ic{width:1.15em;height:1.15em;vertical-align:-0.22em;flex:none}
+.ico .ic{width:1.7em;height:1.7em}
+.hero-badges .ic{width:1em;height:1em}
