@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>AI Copy Generator — Members Area</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/style.css">
+<script src="js/gate.js"></script>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <div class="brand">✨ Copy Generator</div>
+    <a class="cta-mini" href="index.html">Menu</a>
+  </div>
+</header>
+
+<section style="padding-top:28px">
+  <div class="wrap">
+    <h2 style="margin-bottom:6px">Apne Business Ki Copy Banayo</h2>
+    <p class="lead">Neeche apni maloomat likhein — tayyar description aur offer text pao, Urdu aur English me.</p>
+
+    <div class="gen-form">
+      <label>Business ka naam</label>
+      <input id="gName" type="text" placeholder="masalan: Al-Madina Biryani House">
+      <label>Business ki qisam</label>
+      <select id="gType">
+        <option value="restaurant">Restaurant / Dhabba / Cafe</option>
+        <option value="salon">Salon / Barber Shop</option>
+        <option value="clinic">Clinic / Dawakhana</option>
+        <option value="kapra">Kapre ki Dukaan</option>
+        <option value="kiryana">Kiryana / Grocery Store</option>
+        <option value="property">Property Dealer</option>
+        <option value="mobile">Mobile Shop</option>
+        <option value="bakery">Bakery / Sweets</option>
+        <option value="tailor">Tailor / Darzi</option>
+        <option value="general">General Dukaan / Other</option>
+      </select>
+      <label>Sheher / Ilaqa</label>
+      <input id="gCity" type="text" placeholder="masalan: Lahore, Gulberg">
+      <label>Khaas baat / Offer (kya sab se acha hai?)</label>
+      <input id="gOffer" type="text" placeholder="masalan: deg ki biryani, munasib qeemat">
+      <label>Lehja (tone)</label>
+      <div class="tone-row" id="toneRow">
+        <button type="button" data-t="dostana" class="on">😊 Dostana</button>
+        <button type="button" data-t="professional">🤝 Professional</button>
+        <button type="button" data-t="dhamakedaar">🔥 Dhamakedaar</button>
+      </div>
+      <button class="btn" id="genBtn" type="button" style="margin-top:18px">✨ Copy Banayo</button>
+    </div>
+
+    <div class="gen-out" id="genOut" style="display:none">
+      <div class="gen-block">
+        <div class="lbl">Chhoti Description (Urdu)</div>
+        <div class="body" id="outShort"></div>
+        <button class="copybtn" data-for="outShort" type="button" style="margin-top:10px">📋 Copy</button>
+      </div>
+      <div class="gen-block">
+        <div class="lbl">Tafseeli Description (Urdu)</div>
+        <div class="body" id="outLong"></div>
+        <button class="copybtn" data-for="outLong" type="button" style="margin-top:10px">📋 Copy</button>
+      </div>
+      <div class="gen-block">
+        <div class="lbl">Description (English)</div>
+        <div class="body" id="outEn"></div>
+        <button class="copybtn" data-for="outEn" type="button" style="margin-top:10px">📋 Copy</button>
+      </div>
+      <div class="gen-block">
+        <div class="lbl">WhatsApp Status Offer</div>
+        <div class="body" id="outPromo"></div>
+        <button class="copybtn" data-for="outPromo" type="button" style="margin-top:10px">📋 Copy</button>
+      </div>
+      <button class="btn btn-ghost" id="regenBtn" type="button" style="margin-top:14px">🔄 Dobara Banayo (Naya Andaaz)</button>
+    </div>
+  </div>
+</section>
+
+<footer><div class="wrap"><b>30-Din Business Launch Kit</b> · by Wahab Codes</div></footer>
+<script src="js/generator.js"></script>
+</body>
+</html>
